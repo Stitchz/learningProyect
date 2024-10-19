@@ -1,0 +1,2 @@
+- Tomar las interfaces y diseñarlas, tomando lo que vamos a implementar del bootstrap
+(Documentacion-componentes. ejm tomar codigo de carrusel, botonoes, natvar,transiciones....)

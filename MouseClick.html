@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MouseClickEnglish</title>
     <link rel="stylesheet" href="MouseClick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo"></div>
+      <nav class="navbar bg-body-tertiary" style="background-color: #e3f2fd;">
+            <!--<div class="logo"></div>-->
+            <a class="navbar-brand" href="#">
+                <p id="logo"></p> 
+              </a>
             <div class="nav-links">
                 <div class="dropdown">
                     <button class="dropbtn">Class</button>
@@ -52,7 +56,7 @@
     </header>
 
     <main>
-        <div class="container">
+        <section class="container">
             <div class="left-box">
                 <div class="challenge-box">Challenge of the day<br><button>Start</button></div>
                 <div class="tips-box">Tips<br>Try to sing your favorite English song ><</div>
@@ -66,23 +70,38 @@
                     <button>Start</button>
                 </div>
             </div>
-            <div class="right-box">
-                <div class="mascot-image">
-                    <img src="path-to-your-image.png" alt="Mascot reading a book">
+            <section class="right-box">
+                <div id="carouselExample" class="carousel slide mascot-image">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" id="mouseReading"></div>
+                    <div class="carousel-item" id="mouseWriting"></div>
+                    <div class="carousel-item" id="mouseListening"></div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
+              </section>
+              
+
                 <footer class="contact-info">
                     <p>Contact</p>
-                    <p>WhatsApp: 321283442</p>
-                    <p>Email: suzytbb._</p>
-                    <div class="social-media">
-                        <a href="#"><img src="path-to-facebook-icon.png" alt="Facebook"></a>
-                        <a href="#"><img src="path-to-instagram-icon.png" alt="Instagram"></a>
-                        <a href="#"><img src="path-to-youtube-icon.png" alt="YouTube"></a>
-                        <a href="#"><img src="path-to-tiktok-icon.png" alt="TikTok"></a>
-                    </div>
+                    <p><i class="bi bi-whatsapp"></i>WhatsApp: 321283442</p>
+                    <p>Email: suzytbb.</p>
+                    <section class="social-media">
+                        <a href="#"><i class="bi bi-facebook"></i>
+                        <a href="#"><i class="bi bi-instagram"></i>
+                        <a href="#"><i class="bi bi-youtube"></i>
+                        <a href="#"><i class="bi bi-tiktok"></i>
+                    </section>
                 </footer>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 </html>
