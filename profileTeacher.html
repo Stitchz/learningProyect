@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MouseClickEnglish - Create Teacher Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">MouseClickEnglish</h2>
+        <h3 class="text-center">Create a profile teacher</h3>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">What is your level about MCER?</label>
+                <div>
+                    <input type="radio" class="form-check-input" name="mcer-level" id="a1" value="A1" required>
+                    <label class="form-check-label" for="a1">A1</label>
+                </div>
+                <div>
+                    <input type="radio" class="form-check-input" name="mcer-level" id="a2" value="A2">
+                    <label class="form-check-label" for="a2">A2</label>
+                </div>
+                <div>
+                    <input type="radio" class="form-check-input" name="mcer-level" id="b1" value="B1">
+                    <label class="form-check-label" for="b1">B1</label>
+                </div>
+                <div>
+                    <input type="radio" class="form-check-input" name="mcer-level" id="b2" value="B2">
+                    <label class="form-check-label" for="b2">B2</label>
+                </div>
+                <div>
+                    <input type="radio" class="form-check-input" name="mcer-level" id="c1" value="C1">
+                    <label class="form-check-label" for="c1">C1</label>
+                </div>
+                <div>
+                    <input type="radio" class="form-check-input" name="mcer-level" id="c2" value="C2">
+                    <label class="form-check-label" for="c2">C2</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="why-teach" class="form-label">Why do you want to teach?</label>
+                <textarea class="form-control" id="why-teach" rows="3" placeholder="Comment" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Do you agree with terms and conditions?</label>
+                <div>
+                    <input type="radio" class="form-check-input" name="terms" id="agree" value="Yes" required>
+                    <label class="form-check-label" for="agree">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" class="form-check-input" name="terms" id="disagree" value="No">
+                    <label class="form-check-label" for="disagree">No</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
