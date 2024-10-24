@@ -1,5 +1,8 @@
-body{
+*{
     font-family:"Roboto", sans-serif;
+}
+
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +17,7 @@ body{
 }
 
 .navbar .logo {
-    margin-right: 10px; /* Espacio entre el ícono de la mascota y los botones de navegación */
+    margin-right: 10px; 
 }
 
 .logo img{
@@ -52,7 +55,7 @@ body{
 
 .dropdown-content a {
     padding: 10px;
-    border-radius: 10px; /* Bordes redondeados en los enlaces del dropdown */
+    border-radius: 10px;
     text-decoration: none;
     display: block;
     color: #333;
@@ -65,16 +68,16 @@ body{
 
 .search {
     padding: 8px;
-    border-radius: 20px; /* Borde redondeado */
-    border: 1px solid #ccc; /* Bordes suaves */
+    border-radius: 20px; 
+    border: 1px solid #ccc;
     outline: none; /* Eliminar el borde del enfoque */
 }
 
 .login-btn {
     padding: 8px 15px;
     border-radius: 20px; /* Borde redondeado */
-    background-color: #007bff; /* Color del botón */
-    color: white; /* Color del texto del botón */
+    background-color: #d2e2f4; /* Color del botón */
+    color: rgb(37, 37, 37); /* Color del texto del botón */
     border: none; /* Sin borde */
     cursor: pointer; /* Cambiar el cursor cuando pasen sobre el botón */
 }
