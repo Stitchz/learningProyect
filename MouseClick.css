@@ -207,3 +207,16 @@ footer i {
     margin-right: 10px; /* Espacio entre el ícono y el texto */
 }
 
+.custom-btn {
+    border-radius: 20px; /* Redondeado */
+    padding: 5px 15px;   /* Ajuste de tamaño */
+  }
+  
+  .btn-outline-secondary {
+    border-width: 2px; /* Un borde ligeramente más grueso */
+  }
+  
+  .btn-outline-secondary .dropdown-toggle::after {
+    margin-left: 10px; /* Espacio entre texto y flecha */
+  }
+  
