@@ -19,6 +19,22 @@ body{
    
 }
 
+#titleCarousel{
+    
+    text-align: center;
+    font-size: 40px;
+    color: #1308b0; 
+    margin-top: 20px;
+   
+}
+
+#carouselP{
+    text-align: center;
+    font-size: 30px;
+    color: #f3f3f8; 
+    margin-top: 20px;
+}
+
 #challenge{
     font-size: 30px;
     color: #333;

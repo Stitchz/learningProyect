@@ -80,7 +80,7 @@
                 <div class="tips-box"><p id="tips">Tips</p>🎵Try to sing your favorite English song</div>
                 <div class="info-box">
                     <p id="info">Information</p>
-                    <p>How does the exchange work?</p>
+                    <p>🤔How does the exchange work?</p>
                     <button>Start</button><br>
                     <p>👨‍🎓How does volunteering work?</p>
                     <button>Start</button><br>
@@ -89,24 +89,54 @@
                 </div>
             </div>
             <section class="right-box">
-                <div id="carouselExample" class="carousel slide mascot-image">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active" id="mouseReading"></div>
-                    <div class="carousel-item" id="mouseWriting"></div>
-                    <div class="carousel-item" id="mouseListening"></div>
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <!-- Primera diapositiva con enlace -->
+                      <div class="carousel-item active">
+                        <a href="https://example.com/page1">
+                          <img src="img/mouseReading.jpg" class="d-block w-100" alt="First slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 id="titleCarousel">READING</h5>
+                          <p id="carouselP">Read fun stories</p>
+                        </div>
+                      </div>
+                      <!-- Segunda diapositiva con enlace -->
+                      <div class="carousel-item">
+                        <a href="https://example.com/page2">
+                          <img src="img/mouseWriting.jpg" class="d-block w-100" alt="Second slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 id="titleCarousel">WRITING</h5>
+                          <p id="carouselP">Learn by writing with us</p>
+                        </div>
+                      </div>
+                      <!-- Tercera diapositiva con enlace -->
+                      <div class="carousel-item">
+                        <a href="https://example.com/page3">
+                          <img src="img/mouseListening.jpg" class="d-block w-100" alt="Third slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 id="titleCarousel">LISTENING</h5>
+                          <p id="carouselP">Try to sing your favorite English song</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </section>    
-
-            </div>
+                  
         </section>
     </main>
 <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>-->
